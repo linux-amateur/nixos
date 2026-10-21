@@ -1,0 +1,66 @@
+{
+	"margin-left": 8,
+	"margin-right": 8,
+	"margin-top": 8,
+	"spacing": 5,
+
+	"modules-center": [
+		"clock"
+	],
+
+	"clock": {
+		"format": "{:%a %d %b %H:%M}",
+		"tooltip": false
+	},
+
+	"modules-right": [
+		"memory",
+		"cpu",
+		"backlight",
+		"network",
+		"wireplumber#source",
+		"wireplumber#sink",
+		"battery"
+	],
+
+	"memory": {
+		"format": " {percentage}%",
+		"interval": 3,
+		"tooltip": false
+	},
+
+	"cpu": {
+		"format": " {usage}%",
+		"interval": 3,
+		"tooltip": false
+	},
+
+	"backlight": {
+		"format": " {percent}%",
+		"tooltip": false
+	},
+
+	"network": {
+		"format-disabled": "󰪎 none",
+		"format-disconnected": "󰪎 none",
+		"format-ethernet": " {ifname}",
+		"format-wifi": "󰖩 {ifname}",
+		"tooltip": false
+	},
+
+	"wireplumber#source": {
+		"format": "󰍬 {volume}%",
+		"node-type": "Audio/Source",
+		"tooltip": false
+	},
+
+	"wireplumber#sink": {
+		"format": "󰕾 {volume}%",
+		"tooltip": false
+	},
+
+	"battery": {
+		"format": "󰁹 {capacity}%",
+		"tooltip": false
+	}
+}

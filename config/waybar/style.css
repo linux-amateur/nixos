@@ -1,0 +1,26 @@
+#clock,
+#memory,
+#cpu,
+#backlight,
+#network,
+#wireplumber,
+#battery {
+	background-color: rgba(30, 30, 46, 0.85);
+	border: 3px solid rgba(0, 209, 255, 1);
+	border-radius: 20px;
+	color: rgba(205, 214, 244, 1);
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 16px;
+	font-weight: 800;
+	padding: 0px 10px;
+}
+
+#network.disabled,
+#network.disconnected,
+#wireplumber.muted {
+	border: 3px solid rgba(255, 209, 0, 1);
+}
+
+#waybar {
+	background-color: rgba(0, 0, 0, 0);
+}

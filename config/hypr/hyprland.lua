@@ -1,0 +1,7 @@
+require("modules.animations")
+require("modules.autostart")
+require("modules.keybinds")
+require("modules.monitors")
+require("modules.options")
+require("modules.rules.layers")
+require("modules.rules.workspaces")
